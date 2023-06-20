@@ -14,7 +14,6 @@ class Notifier extends Widget
 
     public function run()
     {
-
-        return $this->render('test');
+        return $this->render('index');
     }
 }

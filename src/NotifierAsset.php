@@ -7,10 +7,14 @@ use yii\web\YiiAsset;
 
 class NotifierAsset extends AssetBundle
 {
-    public $sourcePath = '@eLt1me/notifier/src';
+    public $sourcePath = '@eLt1me/notifier';
+
+    public $css = [
+        'css/index.css'
+    ];
 
     public $js = [
-        'js/main.js',
+        'js/index.js',
     ];
 
     /**
